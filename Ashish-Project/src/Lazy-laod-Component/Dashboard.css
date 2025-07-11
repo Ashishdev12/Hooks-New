@@ -1,0 +1,32 @@
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+}
+
+.tabContainer button {
+  background-color: #ffffff;
+  border: 2px solid #0077cc;
+  color: #0077cc;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.tabContainer button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+.tabContainer button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.3);
+}

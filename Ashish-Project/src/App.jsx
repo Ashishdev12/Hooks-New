@@ -2,7 +2,14 @@
 // import './App.css'
 // import './Machine-Round/Calculator-love/Calculator.css'
 import { useState } from 'react'
-import ComponentE from './Custom-Hooks/Example1/ComponentE'
+// import TodoListApp from './Machine-Round/Todo-List/TodoListApp'
+import LazyApp from './Lazy-laod-Component/LazyApp'
+// import ComponentE from './Custom-Hooks/Example1/ComponentE'
+// import AppComponent from './HOC-Component/AppComponent'
+// import ContextApp from './Context/ContextApp'
+
+// import Resusable1 from './Machine-Round/Resuable-Componet/Resusable1'
+// import Reusable from './Machine-Round/Resuable-Componet/Reusable'
 // import UseMemoExample from './UseMemo/UseMemoExample'
 // import UseMemoExample1 from './UseMemo/UseMemoExample1'
 // import Example1 from './React-memo-useCallback/Example1'
@@ -37,7 +44,13 @@ function App() {
    <ComponentB/>
    <ComponentC/> */}
    {/* <ComponentD/> */}
-   <ComponentE/>
+   {/* <ComponentE/> */}
+    {/* <AppComponent/> */}
+    {/* <ContextApp/> */}
+    {/* <Resusable1/> */}
+    {/* <Reusable/> */}
+    {/* <TodoListApp/> */}
+    <LazyApp/>
     </div>
    
   )
