@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2{
+    background-color: orange;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+li {
+  padding: 8px 12px;
+  margin: 6px 0;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  list-style: none;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+

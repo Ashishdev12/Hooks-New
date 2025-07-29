@@ -2,7 +2,7 @@ import React from 'react'
 import { useMoviesCtx } from './ContextComponent'
 
 function NavBar() {
-    const movies = useMoviesCtx()
+    const {movies} = useMoviesCtx()
   return (
     <nav>
       <h1>PVR</h1>
